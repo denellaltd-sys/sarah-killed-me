@@ -24,7 +24,7 @@
 You will be taken there automatically; the full text also remains below.</p>
 
 <h1>Privacy Policy &mdash; Sarah Killed Me!</h1>
-<p class="date">Effective date: 5 July 2026</p>
+<p class="date">Effective date: 13 July 2026</p>
 
 <p><b>Sarah Killed Me!</b> ("the app") is published by Denella Ltd
 (contact: <a href="mailto:contactus@denellapublishing.com">contactus@denellapublishing.com</a>).</p>
@@ -47,14 +47,16 @@ Everything else stays on your device.</p>
       involved. You can decline or disable notification permission at any time in your
       device settings.</li>
   <li><b>No ads.</b> The app contains no advertising and no third-party ad SDKs.</li>
-  <li><b>No analytics.</b> We do not collect usage analytics or device identifiers.</li>
+  <li><b>No analytics.</b> We do not collect usage analytics, advertising identifiers,
+      or track how you play. The only thing the app ever sends on its own is an
+      anonymous crash report if it breaks (see "Crash reports" below).</li>
 </ul>
 
 <h2>The daily leaderboard (optional)</h2>
 <p>Today's Case can be played <b>ranked</b> on a worldwide daily leaderboard. This is
 entirely optional &mdash; you choose it by entering a display name and tapping
-"Begin". If you decline or are offline, you can play the same puzzle unranked and
-nothing is sent anywhere.</p>
+"Begin". If you prefer, tap <b>"Play unranked"</b> instead: the same puzzle, no
+display name, and nothing is sent anywhere.</p>
 <ul>
   <li><b>What is stored:</b> the display name you choose, and your result for that
       day's puzzle &mdash; solve time, number of clues used, score, and the date.</li>
@@ -62,6 +64,9 @@ nothing is sent anywhere.</p>
       leaderboard, visible to other players. <b>Choose a nickname, not your real
       name</b>, if you prefer to stay anonymous &mdash; we have no way of knowing who a
       display name belongs to.</li>
+  <li><b>Moderation:</b> display names are filtered for offensive content, and any
+      name can be reported from the leaderboard screen ("Report a name"). Reported
+      names are reviewed and removed if inappropriate.</li>
   <li><b>What is NOT collected:</b> no email address, no account, no device
       identifiers, no location, no contacts &mdash; nothing beyond the name you type
       and the puzzle result.</li>
@@ -74,23 +79,26 @@ nothing is sent anywhere.</p>
   <li><b>Not shared, not sold.</b> Leaderboard data is used only to display the
       leaderboard. It is never sold, shared with third parties, or used for
       advertising.</li>
+  <li><b>Abuse prevention:</b> to stop automated abuse of the leaderboard, our
+      server briefly counts requests per connection. The network address is
+      irreversibly hashed before being counted and the counters are deleted after
+      two days; no readable addresses are ever stored.</li>
 </ul>
 
 <h2>Crash reports</h2>
 <p>If the app closes unexpectedly, the next time it opens it sends us a short
 anonymous report so we can find and fix the problem. It contains: where in the
-game the problem happened, the app version, the device model and screen size,
-and the technical error message if there was one. If you had entered a
-leaderboard display name, it is included so we can connect the report to a
-stuck leaderboard entry &mdash; nothing else identifies you or your device.</p>
+game the problem happened, the app version, the device's browser signature
+(user-agent string), its memory class and screen size, and the technical error
+message if there was one. It contains <b>no display name</b> and nothing that
+identifies you or your device.</p>
 <ul>
   <li><b>No identifiers:</b> no advertising ID, serial number, account, or
-      location &mdash; a crash report cannot be traced to a person.</li>
+      location &mdash; a crash report cannot be traced to a person or linked to a
+      leaderboard entry.</li>
   <li><b>Used only for fixing bugs</b>, stored with our database provider
       Supabase (European Union), never shared or sold.</li>
-  <li><b>Deletion:</b> as with leaderboard entries, email
-      <a href="mailto:contactus@denellapublishing.com">contactus@denellapublishing.com</a>
-      and we will delete any reports carrying your display name.</li>
+  <li><b>Retention:</b> reports are deleted once the bug they describe is fixed.</li>
 </ul>
 
 <h2>Children</h2>
